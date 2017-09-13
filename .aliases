@@ -5,7 +5,7 @@ alias s="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 # Reload the shell
 alias reload="exec ${SHELL} -l"
 
-# Easier navigation: .., ..., ...., ....., ~ and -
+# Easier navigation: .., ..., ...., .....
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -40,6 +40,9 @@ alias egrep='egrep --color=auto'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
+
+# source is 3 characters too long to type
+alias src='source'
 
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
