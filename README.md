@@ -6,4 +6,5 @@ Dependencies:
 
 To use:
 ```cd && git clone https://github.com/edzmh96/dotfiles.git```
+
 ```cd dotfiles && source .bash_profile```
