@@ -51,7 +51,7 @@ function setjdk() {
   export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
  }
 setjdk 1.8.0_11
-
+#lol
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_COMPLETION_TRIGGER='`'
 
