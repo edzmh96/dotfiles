@@ -1,5 +1,6 @@
 # dotfiles
 
+![screenshot of prompt](https://pasteboard.co/GK87HTT.png)
 
 Dependencies:
 [fzf](https://github.com/junegunn/fzf) - fuzzy search for the terminal
