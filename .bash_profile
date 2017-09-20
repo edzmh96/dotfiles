@@ -76,3 +76,4 @@ if [ -f '/Users/Edward/Documents/Workspace/google-cloud-sdk/path.bash.inc' ]; th
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/Edward/Documents/Workspace/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/Edward/Documents/Workspace/google-cloud-sdk/completion.bash.inc'; fi
+export PATH=/usr/local/mysql/bin:$PATH
