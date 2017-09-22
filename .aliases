@@ -56,3 +56,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Update bash profile, push to repo
 alias srcbash='source ~/.bash_profile && cp ~/.bash_profile ~/dotfiles && cd ~/dotfiles && git add . && git commit -m "update dotfiles" && git push origin master'
 
+# start postgres
+alias startpostgres='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+# stop postgres
+alias stoppostgres='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
